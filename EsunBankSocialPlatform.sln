@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsunBankSocialPlatform", "EsunBankSocialPlatform\EsunBankSocialPlatform.csproj", "{151F5184-4A00-47DC-8AE6-028C3AB78755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151F5184-4A00-47DC-8AE6-028C3AB78755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151F5184-4A00-47DC-8AE6-028C3AB78755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151F5184-4A00-47DC-8AE6-028C3AB78755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151F5184-4A00-47DC-8AE6-028C3AB78755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62850226-BDB5-49F6-ADDD-25383AED6CDA}
+	EndGlobalSection
+EndGlobal

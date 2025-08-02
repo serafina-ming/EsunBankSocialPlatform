@@ -1,0 +1,26 @@
+﻿@model List<EsunBankSocialPlatform.Models.DisplayViewModel>
+
+@{
+    ViewData["Title"] = "所有發文";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="container px-4 px-lg-5">
+	<div class="row gx-4 gx-lg-5 justify-content-center">
+		<div class="col-md-10 col-lg-8 col-xl-7">
+			@foreach (var Post in Model)
+			{
+				<div class="post-preview">
+					<a asp-controller="Social" asp-action="Post" asp-route-id="@Post.PostId">
+						<h2 class="post-title">@Post.Content</h2>
+					</a>
+					<p class="post-meta">
+						@Post.UserName Created At @Post.CreateTime
+					</p>
+				</div>
+				<hr class="my-4">
+			}
+		</div>
+	</div>
+</div>
